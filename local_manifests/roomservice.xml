@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Cihaz ağacı -->
+  <project name="LineageOS/android_device_samsung_hlte"
+           path="device/samsung/hlte"
+           remote="github"
+           revision="lineage-18.1" />
+
+  <!-- msm8974 ailesi için ortak ağaç -->
+  <project name="LineageOS/android_device_samsung_msm8974-common"
+           path="device/samsung/msm8974-common"
+           remote="github"
+           revision="lineage-18.1" />
+
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_samsung_msm8974"
+           path="kernel/samsung/msm8974"
+           remote="github"
+           revision="lineage-18.1" />
+
+  <!-- Proprietary vendor blobs -->
+  <project name="TheMuppets/proprietary_vendor_samsung"
+           path="vendor/samsung"
+           remote="github"
+           revision="lineage-18.1" />
+</manifest>

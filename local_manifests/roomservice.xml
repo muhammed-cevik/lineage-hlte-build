@@ -6,6 +6,12 @@
            remote="github"
            revision="lineage-18.1" />
 
+  <!-- hlte ailesi için ortak cihaz ağacı (device.mk'ın bağımlı olduğu) -->
+  <project name="LineageOS/android_device_samsung_hlte-common"
+           path="device/samsung/hlte-common"
+           remote="github"
+           revision="lineage-18.1" />
+
   <!-- msm8974 ailesi için ortak ağaç -->
   <project name="LineageOS/android_device_samsung_msm8974-common"
            path="device/samsung/msm8974-common"
